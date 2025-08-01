@@ -1,0 +1,103 @@
+{
+  "version": "v1.0.0",
+  "entity": {
+    "type": "organisation",
+    "role": "owner",
+    "name": "Tarides",
+    "email": "contact@tarides.com",
+    "description": "Tarides is an international software company dedicated to advancing the OCaml ecosystem by maintaining core tools and critical infrastructure for the community. Our team provides continuous integration (CI) services and tooling for OCaml, such as automated build and test pipelines for OCaml projects and the opam package repository, ensuring that the ecosystem remains robust and up-to-date. We also contribute to OCaml language development and maintain essential libraries and developer tools. Financial support will help us sustain and expand this infrastructure and support the engineers working on these open-source projects.",
+    "webpageUrl": {
+      "url": "https://tarides.com"
+    }
+  },
+  "projects": [
+    {
+      "guid": "ocaml-ci",
+      "name": "OCaml-CI",
+      "description": "OCaml-CI is a continuous integration service that automatically builds and tests OCaml projects across multiple compiler versions and OS platforms with zero configuration, using caching to speed up builds. It helps OCaml developers ensure their packages work on all supported platforms.",
+      "webpageUrl": {
+        "url": "https://github.com/ocurrent/ocaml-ci"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/ocurrent/ocaml-ci"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "ci",
+        "continuous-integration",
+        "ocaml",
+        "github"
+      ]
+    },
+    {
+      "guid": "opam-repo-ci",
+      "name": "opam-repo-ci",
+      "description": "opam-repo-ci is an automated CI pipeline that tests submissions to the OCaml opam package repository. It checks new or updated packages on all supported OCaml versions and platforms, ensuring that packages in the central repository build and pass their tests before they are published to the community.",
+      "webpageUrl": {
+        "url": "https://github.com/ocurrent/opam-repo-ci"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/ocurrent/opam-repo-ci"
+      },
+      "licenses": [
+        "spdx:Apache-2.0"
+      ],
+      "tags": [
+        "ci",
+        "continuous-integration",
+        "ocaml",
+        "opam-repository"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "github-sponsors",
+        "type": "payment-provider",
+        "address": "https://github.com/sponsors/tarides",
+        "description": "Support Tarides via GitHub Sponsors (one-time or recurring donations)."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "ci-hosting",
+        "status": "active",
+        "name": "CI infrastructure hosting",
+        "description": "Covers the monthly costs of servers and cloud resources for running the OCaml CI infrastructure (build workers, storage, etc.).",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "github-sponsors"
+        ]
+      },
+      {
+        "guid": "developer-support",
+        "status": "active",
+        "name": "Developer support",
+        "description": "Helps fund developer time for maintaining and improving the CI tools and infrastructure (adding new features, platform support, bug fixes, etc.).",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "github-sponsors"
+        ]
+      },
+      {
+        "guid": "goodwill-plan",
+        "status": "active",
+        "name": "Goodwill one-time support",
+        "description": "Contribute any one-time amount to support our open-source CI infrastructure and ensure its sustainability.",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": [
+          "github-sponsors"
+        ]
+      }
+    ]
+  }
+}
