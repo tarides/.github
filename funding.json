@@ -7,7 +7,8 @@
     "email": "contact@tarides.com",
     "description": "Tarides is an international software company dedicated to advancing the OCaml ecosystem by maintaining core tools and critical infrastructure for the community. Our team provides continuous integration (CI) services and tooling for OCaml, such as automated build and test pipelines for OCaml projects and the opam package repository, ensuring that the ecosystem remains robust and up-to-date. We also contribute to OCaml language development and maintain essential libraries and developer tools. Financial support will help us sustain and expand this infrastructure and support the engineers working on these open-source projects.",
     "webpageUrl": {
-      "url": "https://tarides.com"
+      "url": "https://tarides.com",
+      "wellKnown": "https://tarides.com/.well-known/funding-manifest-urls"
     }
   },
   "projects": [
