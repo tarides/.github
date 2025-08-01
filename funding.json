@@ -13,43 +13,25 @@
   },
   "projects": [
     {
-      "guid": "ocaml-ci",
-      "name": "OCaml-CI",
-      "description": "OCaml-CI is a continuous integration service that automatically builds and tests OCaml projects across multiple compiler versions and OS platforms with zero configuration, using caching to speed up builds. It helps OCaml developers ensure their packages work on all supported platforms.",
+      "guid": "ocurrent-overview",
+      "name": "OCurrent Overview",
+      "description": "This repository documents the structure and components of the OCurrent CI ecosystem, which underpins much of the OCaml project's continuous integration infrastructure. It serves as an entry point for understanding and contributing to the interconnected tools—such as ocaml-ci and opam-repo-ci—that Tarides helps maintain. It represents critical shared infrastructure that ensures the health and evolution of the OCaml package ecosystem.",
       "webpageUrl": {
-        "url": "https://github.com/ocurrent/ocaml-ci"
+        "url": "https://github.com/ocurrent/overview",
+        "wellKnown": "https://github.com/ocurrent/overview/blob/master/.well-known/funding-manifest-urls"
       },
       "repositoryUrl": {
-        "url": "https://github.com/ocurrent/ocaml-ci"
+        "url": "https://github.com/ocurrent/overview",
+        "wellKnown": "https://github.com/ocurrent/overview/blob/master/.well-known/funding-manifest-urls"
       },
       "licenses": [
         "spdx:MIT"
       ],
       "tags": [
+        "documentation",
         "ci",
-        "continuous-integration",
         "ocaml",
-        "github"
-      ]
-    },
-    {
-      "guid": "opam-repo-ci",
-      "name": "opam-repo-ci",
-      "description": "opam-repo-ci is an automated CI pipeline that tests submissions to the OCaml opam package repository. It checks new or updated packages on all supported OCaml versions and platforms, ensuring that packages in the central repository build and pass their tests before they are published to the community.",
-      "webpageUrl": {
-        "url": "https://github.com/ocurrent/opam-repo-ci"
-      },
-      "repositoryUrl": {
-        "url": "https://github.com/ocurrent/opam-repo-ci"
-      },
-      "licenses": [
-        "spdx:Apache-2.0"
-      ],
-      "tags": [
-        "ci",
-        "continuous-integration",
-        "ocaml",
-        "opam-repository"
+        "overview"
       ]
     }
   ],
